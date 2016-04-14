@@ -1,0 +1,201 @@
+BODY {  
+  background-repeat: repeat-y;   
+  background-attachment: fixed;   
+  background-position: left top;  
+  font-family: Verdana, Arial, Helvetica, sans-serif;   
+  font-size: 9pt;   
+  font-style: normal;   
+  line-height: normal;  
+  font-weight: normal;   
+  color: #000000;   
+  text-decoration: none   
+;}
+
+TH {  
+  display: table-cell;  
+  font-size: 9pt;  
+}  
+TD {  
+  display: table-cell;
+  font-size: 9pt;  
+}  
+  
+A.button {   
+   background-color: #A10016;  
+   background-image: url(../images/camo5.gif); 
+   border-color:  #6E0016;  
+   color:#DAE668;   
+   border: medium outset;   
+   display: block;   
+//   width: 100%;
+   height: 100%;
+   padding: 0px;   
+   margin: 0px;   
+   position: relative;   
+   line-height: 1.2em;   
+//   font-size:10pt;  
+   top: 2px;   
+   bottom: 0px;   
+   text-align: left;   
+//   background-position: top left;   
+   text-decoration: none;   
+   text-shadow: black 0px 0px 5px;   
+}   
+  
+A.button:hover {   
+   text-align: left;   
+   color: #5544D4;   
+   text-decoration: none;   
+   border: medium inset;   
+   background-color: #6E0016;   
+   border-color: #734542;  
+}   
+  
+A.button:active {   
+   text-align: left;   
+   color: #5544D4;   
+   text-decoration: none;   
+   border: medium inset;   
+   border-color: #393C21;  
+   background-color: : #350007;   
+}  
+  
+//A.button:visited { color: #CCFFFF; border: thin ridge; background-color: #6b31ff; text-decoration: none; border-color: #6b31ff ridge }   
+//A.button:link { color: #CCFFFF; border: thin ridge; background-color: #6b31ff; text-decoration: none; border-color: #6b31ff ridge }  
+A.img-button {
+	background-image: url(../images/button/boot-transp-60x60.gif);
+   background-color: #393C21;  
+   background-repeat: no-repeat;   
+   background-position: bottom left;   
+   border-color:  #734542;  
+   color:#DAE668;   
+   border: medium outset;   
+   display: block;   
+   width: 60px;
+   height: 80px;
+   padding: 2px;   
+   margin: 0px;   
+   position: relative;   
+   line-height: 1.2em;   
+   font-size:10pt;  
+   top: 0px;   
+   bottom: 0px;   
+   text-align: left;   
+   text-decoration: none;   
+   text-shadow: black 0px 0px 5px;   
+}
+  
+A.img-button:hover  {
+   color:#5544D4;   
+   border: medium inset;   
+   background-color: #291808;   
+   background-repeat: none;   
+   background-position: bottom left;   
+   border-color: #734542;  
+   text-shadow: black 0px 0px 5px;   
+}
+  
+A.img-button:active  {
+   color:#5544D4;   
+   border: medium inset;   
+   border-color: #393C21;  
+   background-color: #190808;   
+   background-repeat: none;   
+   background-position: bottom left;   
+   text-shadow: black 0px 0px 5px;   
+}
+  
+IMG.button {   
+   padding: 0 px;   
+   margin: 0px;  
+   border-width: 0px;  
+//   width: inherit;  
+//   height: inherit;   
+//   position: relative;   
+//   line-height: 2em;   
+//   top: 0px;   
+//   bottom: 0px;   
+     
+   background-color: #393C21;  
+   border-color:  #734542;  
+   border: medium outset;   
+}  
+  
+IMG.button:hover {  
+   border: medium inset;   
+   background-color: #291808;   
+   border-color: #734542;  
+}  
+  
+IMG.button:active {   
+   border: medium inset;   
+   border-color: #393C21;  
+   background-color: #190808;   
+}  
+
+TABLE.nav-grid {
+	margin: 0px;
+	padding: 0px;
+}
+  
+BODY.page-main {   
+  background-repeat: repeat;   
+  background-attachment: fixed;   
+  background-position: left top;  
+//  background-image: url(camo1.jpg); 
+  font-family: Verdana, Arial, Helvetica, sans-serif;   
+  font-size: 16pt; font-style: normal;   
+  line-height: normal;   
+  font-weight: normal;   
+  color: #DAE668;   
+  text-decoration: none ;   
+  background-color:#000000; 
+ }  
+  
+BODY.page-logo {  
+  background-repeat: repeat;   
+  background-attachment: fixed;   
+  background-position: right bottom;  
+  background-image: url(camo1-r.jpg); 
+  background-color:#6E8D49 ;  
+  font-family: Verdana, Arial, Helvetica, sans-serif;   
+  font-size: 16pt;   
+  font-style: normal;   
+  line-height: normal;  
+  font-weight: normal;   
+  color: #DAE668;   
+  text-decoration: none; 
+}   
+BODY.page-nav {  
+  background-repeat: repeat;   
+  background-attachment: fixed;   
+  background-position: left bottom;  
+  background-image: url(camo1.jpg); 
+  background-color:#6E8D49 ;  
+  font-family: Verdana, Arial, Helvetica, sans-serif;   
+  font-size: 16pt;   
+  font-style: normal;   
+  line-height: normal;  
+  font-weight: normal;   
+  margin: 0px;
+  padding: 0px;
+  color:#DAE668;   
+  text-decoration: none; 
+}  
+  
+H2.thinflouro {   
+  text-shadow: black 6px 6px 6px;   
+  background-image: url(thinnafluorostrip.jpg);   
+  background-color: #FFFFFF;   
+  color: #000000;  
+  border-style: outset; 
+  border-width: thin;  
+  border-color:  #F953c5;  
+  background-repeat: repeat-x   
+;}   
+
+INPUT.contact, TEXTAREA.contact {
+  background-color: #7B6D4A;   
+  color: #000000;  
+}
+
